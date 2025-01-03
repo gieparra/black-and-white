@@ -1,0 +1,45 @@
+* { box-sizing: border-box;} /* universal selector */
+
+html { font-size: 10px; }
+
+body {
+  font-family: Verdana, Arial, sans-serif;
+  text-align: center;
+ }
+
+h1 {
+  font-size: 4rem;
+  margin: 0;
+  
+ }
+
+header {
+    text-transform: uppercase;
+    padding: 50px 0;
+    background: linear-gradient(to right, white 50%, black 50%);
+    text-shadow: 4px 4px 4px rgba(147, 147, 147, 0.9);
+      
+}
+
+header h1 span {
+    color: #fff;
+}
+
+.black, .white {
+    padding: 50px;
+    display: inline-block;
+    width: 50%;
+    box-shadow: 0 6px 4px(147, 147, 147, .5);
+}
+
+.black {
+    background-color: #000;
+    color: #fff;
+}
+
+.both {
+    background: repeating-linear-gradient(45deg, #fff, #fff 10px, #000 10px, #000 20px);
+    padding: 50px;
+    color: #fff;
+    text-shadow: 0 0 1px rgba(0, 0, 0, .75), 3px 3px 2px rgba(0,0,0,.8), -3px -3px 2px rgba(255,255,255, .8);
+}
